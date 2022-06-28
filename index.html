@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Install Custom Google Font 'Kanit' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+    <main>
+        <div class="button-container">
+            <div class="color-choice">
+                <p>Set Color:</p>
+                <input type="color" value="#2B2B28" class="pick-color"></input>
+            </div>
+            <button class="black">Black</button>
+            <button class="rainbow">Rainbow</button>
+            <button class="reset">Reset</button>
+            <div class="slider-container">
+                <p class="slider-value">16 x 16</p>
+                <input type="range" class="pick-size" min="1" max="100" value="16"></input>
+            </div>
+        </div>
+        <div class="sketch-container"></div>
+    </main>
+    <footer>
+        <a href="https://github.com/sth21">
+            <img src="githublogo.png">
+        </a>
+        <h2><a href="https://github.com/sth21">sth21</a></h2>
+    </footer>
+</body>
+</html>

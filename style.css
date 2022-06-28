@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Kanit', sans-serif;
+    background-color: #2B2B28;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+h1 {
+    color: #EBEBE3;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 205px;
+    height: 450px;
+}
+
+button,
+.color-choice {
+    height: 50px;
+    width: 150px;
+    background-color: #EBEBE3;
+    color: #4a4a48;
+    border-radius: 20px;
+    border: 5px solid #4a4a48;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+button:hover,
+.color-choice:hover {
+    transform: scale(1.2);
+}
+
+
+.color-choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    width: 140px;
+}
+
+input {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.slider-value {
+    color: #EBEBE3;
+    font-size: 15px;
+}
+
+/* Credit for this slider design goes to Shashank Sharma whose design I found on freefrontweb 
+Link to his design: https://codepen.io/shashank_coder/pen/jOqxOpK */
+.pick-size {
+    height: 10px;
+    -webkit-appearance: none;
+    background: #2B2B28;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+  }
+
+  .pick-size::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #EBEBE3;
+    cursor: pointer;
+    border: 5px solid #2B2B28;
+    box-shadow: -407px 0 0 400px #EBEBE3;
+  }
+
+.sketch-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 10px solid #4a4a48;
+    height: 450px;
+    width: 450px;
+}
+
+.empty {
+    background-color: #EBEBE3;
+}
+
+.full {
+    background-color: #2B2B28;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+a {
+    color: #EBEBE3;
+}
